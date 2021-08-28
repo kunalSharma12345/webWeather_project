@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+                {{>headerlinks}}
+</head>
+<body>
+     <!-- main menu navbar -->
+
+    {{>navbar}}
+
+    <!-- main header  -->
+    <div class="container-fuild main_header">
+               <div class="row">
+                        <div class="col-md-10 col-12 mx-auto">
+                                <div class="row">
+                                            <!-- left side div  -->
+                                            <div class="col-md-12 col-12 main_header_left align-items-center errorpage_div">
+
+                                                <figure class="errimg">
+                                                    <img src="images/error.jpg " alt="kunal" class="img-fluid" title="kunal sharma">
+                                                </figure>
+      
+                                             
+                                                <p>Welcome to Kunal Weather Web</p>
+                                                <h1>{{errorMsg}}</h1>
+                                                <a href="/"><button>Go back</button></a>
+                                        </div>
+                                            <!-- right side div  -->
+                         
+                                </div>
+                       
+                         </div>
+               </div>
+    </div> 
+
+    <!-- footer code -->
+   {{>footer}}
+
+</body>
+</html>
